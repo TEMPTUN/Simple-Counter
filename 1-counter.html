@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMETHING</title>
+</head>
+
+
+<style>
+    h1{
+        color:rgb(169, 155, 184);
+        font-size: 60px;
+    }
+    h2{
+        text-align:center;
+        color:rgb(33, 3, 63);
+        font-size: 70px;
+        background-color: rgb(202, 177, 177);
+    }
+    button{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+        width: 200px;
+        background-color:green;
+        font-style: oblique;
+        color: whitesmoke;
+    }
+</style>
+
+
+<!-- <a href="style.html">click me</a> -->
+<body>
+  
+    
+    <h1 style="color-interpolation-filters:linearRGB;text-align: center;" onclick="r()">TOTAL COUNT: </h1>
+    <h2 id="count" onclick="r()">0</h2>
+    <button id="inc-e" onclick="r()" >INCREMENT</button>
+     <br>  <br>
+
+
+    <button id="dec" onclick="q()" style="background-color:darkred;">DECREMENT</button> 
+
+<br> 
+ <br>
+    <button style="border-radius: 0px;background: dimgray;height:100px" id="saveq" onclick="save()">SUBMIT</button>
+    <br>
+    <br>
+    <h3 id="swn">PREVIOUS SET: </h3>
+
+    <script src="counter.js"></script>
+    <script src="revision.js"></script>
+
+
+</body>
+</html>
